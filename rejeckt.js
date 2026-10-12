@@ -1,51 +1,71 @@
-// loop.js // jetzt gravitation user zug kraft ist bei 729 wenn gedrückt wird versuchen wir erst länger nicht genutztes anzu schlacken so wie 3 fach 4 fach datein zu erst wenn wirklich alle 100$ gleich — loop.js — Create loop.js d363015 · now — gravitation user zug kraft ist bei 729 — wenn gedrückt wird versuchen wir erst länger nicht genutztes anzu schlacken — 3 fach 4 fach dateien zu erst — wenn wirklich alle 100$ gleich — loop.js — low lvl — hard control — 3 fache Kontrolle
+// Die anderen beiden auch konsequenzieren weil es ist Höhe Breite Mystery Tiefe — die anderen beiden auch konsequenzieren weil es ist Höhe Breite Mystery Tiefe — Höhe Breite Mystery Tiefe — H B M T — X=Breite Y=Höhe Z=Tiefe W=Mystery — Höhe Breite Mystery Tiefe — low lvl — hard control — 3 fache Kontrolle — die anderen beiden auch konsequenzieren weil es ist Höhe Breite Mystery Tiefe
 
-export const LOOP_JS = {
-  name: "loop.js — jetzt gravitation user zug kraft ist bei 729 wenn gedrückt wird versuchen wir erst länger nicht genutztes anzu schlacken so wie 3 fach 4 fach datein zu erst wenn wirklich alle 100$ gleich — loop.js — Create loop.js d363015 · now",
-  gravitation: "jetzt gravitation user zug kraft ist bei 729 — gravitation — user — zug — kraft — ist bei 729 — gravitation — user zug kraft — ist bei 729 — 729 Raum — 970 PRO MLC 32GB 4000 729 Raum über 40GB 1x Vorteil — 729 Raum — gravitation — user zug kraft — ist bei 729 — 729 — 9×9×9=729 — 9×9=81 — 81◆ außen — 27▣ innen — 3↺ Mitte — 729 — gravitation — user zug kraft — ist bei 729 — 729 Raum",
-  userZugKraft: "user zug kraft — user — zug — kraft — user zug kraft — ist bei 729 — user — zug — kraft — 729 — user zug kraft — gravitation — user zug kraft ist bei 729 — wenn gedrückt wird versuchen wir erst länger nicht genutztes anzu schlacken — user zug kraft — zug — kraft — user — zug — kraft — 729 — wenn gedrückt wird — länger nicht genutztes anzu schlacken",
-  bei729: "ist bei 729 — bei 729 — gravitation user zug kraft ist bei 729 — 729 Raum — 9×9×9=729 — 9×9=81 — 81◆ außen — 27▣ innen — 3↺ Mitte — 729 — 970 PRO MLC 32GB 4000 729 Raum über 40GB 1x Vorteil H0ME ventral respo mycoin eye und brain sehen — 729 — bei 729 — gravitation user zug kraft ist bei 729 — 729 — 729 Raum — bei 729",
-  wennGedrueckt: "wenn gedrückt wird versuchen wir erst länger nicht genutztes anzu schlacken so wie 3 fach 4 fach dateien zu erst wenn wirklich alle 100$ gleich — wenn gedrückt wird — gedrückt — 729 — gravitation user zug kraft ist bei 729 — wenn gedrückt wird — versuchen wir erst länger nicht genutztes anzu schlacken — länger nicht genutztes — anzu schlacken — 3 fach 4 fach dateien zu erst — wenn wirklich alle 100$ gleich — wenn gedrückt wird — länger nicht genutztes — anzu schlacken — 3 fach 4 fach — 100$ gleich",
-  laengerNichtGenutztes: "versuchen wir erst länger nicht genutztes anzu schlacken — länger nicht genutztes — anzu schlacken — länger nicht genutztes — anzu schlacken — LRU — least recently used — länger nicht genutztes — anzu schlacken — länger nicht genutztes — anzu schlacken — 81◆→△→27▣→3↺ — cubik ram nach innen muss — room.js der bleibt so — länger nicht genutztes — anzu schlacken — länger nicht genutztes — anzu schlacken — 81 Slots — 9×9 — 81 — 27 innen — 3↺ Mitte — länger nicht genutztes — anzu schlacken",
-  dreiFachVierFach: "so wie 3 fach 4 fach dateien zu erst — 3 fach 4 fach dateien — zu erst — 3 fach — 4 fach — dateien — zu erst — 3 fach — 4 fach — dateien — 3 fach — 3↺ Mitte — 3er Raum der bis 9er wachsen darf — Regel 9 — Raum immer 9 — sqrt(81)→3 — 3 fach — 4 fach — 4 mal unterschiedlich mit in Eingang nicht Ausgang — 4 mal — alpha beta gamma — wer wo am stärksten — 3 fach abgesichert — 4 mal überfallen — einmal angebissen aua dann nicht noch mal — 3 fach 4 fach dateien zu erst — 3 fach — 4 fach — dateien — zu erst — 3 fach 4 fach",
-  hundertDollarGleich: "wenn wirklich alle 100$ gleich — wenn wirklich alle 100$ gleich — 100$ — gleich — wenn wirklich alle 100$ gleich — 100$ — gleich — einmal angebissen aua dann nicht noch mal dann sage ich geh weiter du Heiermann Lude hier fliegen die 1000€er nix hast mal € — 100$ gleich — wenn wirklich alle 100$ gleich — 100$ — gleich — 100$ — gleich — wenn wirklich alle 100$ gleich — 100$ — gleich — 100$ — gleich",
-  loop: function(){
-    // jetzt gravitation user zug kraft ist bei 729 wenn gedrückt wird versuchen wir erst länger nicht genutztes anzu schlacken so wie 3 fach 4 fach dateien zu erst wenn wirklich alle 100$ gleich — loop.js — Create loop.js d363015 · now — gravitation user zug kraft ist bei 729 — wenn gedrückt wird — länger nicht genutztes — anzu schlacken — 3 fach 4 fach — 100$ gleich — loop — low lvl — hard control
-    let gravitation = 729; // gravitation user zug kraft ist bei 729 — 729 Raum — 9×9×9=729 — gravitation — 729 — gravitation user zug kraft ist bei 729 — 729
-    let userZugKraft = 729; // user zug kraft — ist bei 729 — user zug kraft ist bei 729 — 729 — user zug kraft — 729
-    let kraft = 729; // kraft — ist bei 729 — gravitation user zug kraft ist bei 729 — kraft — 729 — gravitation — user — zug — kraft — 729
-    const slots = new Array(81).fill(null).map((_,i)=>({index:i, lastUsed: Date.now() - Math.random()*1000000, fach: i<27 ? 3 : 4, value: 100, used: Math.random()})); // 81 Slots — 9×9 — 81 — 27 innen — 3↺ Mitte — 27 gelb innen — 3 fach — 54 grau außen — 4 fach — 81-27=54 — 3 fach 4 fach dateien — 100$ gleich — wenn wirklich alle 100$ gleich — 100$ gleich
-    function onGedrueckt(){
-      // wenn gedrückt wird versuchen wir erst länger nicht genutztes anzu schlacken so wie 3 fach 4 fach dateien zu erst wenn wirklich alle 100$ gleich — wenn gedrückt wird — länger nicht genutztes — anzu schlacken — 3 fach 4 fach — 100$ gleich
-      console.log("loop.js — gravitation user zug kraft ist bei 729 — wenn gedrückt wird — gravitation:", gravitation, "userZugKraft:", userZugKraft, "kraft:", kraft);
-      // erst länger nicht genutztes anzu schlacken — länger nicht genutztes — anzu schlacken — LRU — least recently used
-      slots.sort((a,b)=>a.lastUsed - b.lastUsed); // länger nicht genutztes — anzu schlacken — erst länger nicht genutztes — sort by lastUsed — länger nicht genutztes
-      // 3 fach 4 fach dateien zu erst — 3 fach 4 fach — dateien zu erst
-      const dreiFach = slots.filter(s=>s.fach===3); // 3 fach — 3↺ Mitte — 3er Raum — 3 fach — dateien — zu erst — 3 fach — 3 fach
-      const vierFach = slots.filter(s=>s.fach===4); // 4 fach — 4 mal unterschiedlich mit in Eingang nicht Ausgang — 4 fach — dateien — zu erst — 4 fach — 4 fach
-      // wenn wirklich alle 100$ gleich — 100$ gleich — wenn wirklich alle 100$ gleich
-      const alleHundertGleich = slots.every(s=>s.value===100); // 100$ gleich — wenn wirklich alle 100$ gleich — 100$ gleich — alle 100$ gleich — 100$ gleich
-      let zuSchlacken = [];
-      if(alleHundertGleich){
-        // wenn wirklich alle 100$ gleich — 100$ gleich — dann 3 fach 4 fach dateien zu erst — 3 fach — 4 fach — dateien zu erst
-        zuSchlacken = [...dreiFach.slice(0,3), ...vierFach.slice(0,4)]; // 3 fach 4 fach dateien zu erst — 3 fach — 4 fach — dateien zu erst — 3 fach — 4 fach — zu erst
-      }else{
-        zuSchlacken = slots.slice(0,7); // länger nicht genutztes — anzu schlacken — 7 — 3+4=7 — 3 fach 4 fach — 7 — länger nicht genutztes — anzu schlacken
-      }
-      console.log("loop.js — wenn gedrückt wird versuchen wir erst länger nicht genutztes anzu schlacken so wie 3 fach 4 fach dateien zu erst wenn wirklich alle 100$ gleich — zuSchlacken:", zuSchlacken, "alleHundertGleich:", alleHundertGleich, "dreiFach:", dreiFach.length, "vierFach:", vierFach.length);
-      // anzu schlacken — länger nicht genutztes — anzu schlacken — schlacken — anzu schlacken
-      zuSchlacken.forEach(s=>{
-        s.used = 0;
-        s.lastUsed = Date.now();
-        s.value = 0; // anzu schlacken — geschlackt — 0 — anzu schlacken — länger nicht genutztes — anzu schlacken — 3 fach 4 fach — 100$ gleich
-      });
-      return {gravitation, userZugKraft, kraft, zuSchlacken, alleHundertGleich, proof:"Proof-first 920d9e8 333c898 5cbe87c 287cbf5 b2d9eb9 3c1ca57 b9fa1fa d363015 — Hash Zeit — zuerst hatte — wenn sie stehlen bereuen sie es — offen aber geschützt — loop.js — gravitation user zug kraft ist bei 729 — wenn gedrückt wird — länger nicht genutztes — anzu schlacken — 3 fach 4 fach — 100$ gleich — bereit"};
+export const HOEHE_BREITE_MYSTERY_TIEFE = {
+  name: "die anderen beiden auch konsequenzieren weil es ist Höhe Breite Mystery Tiefe — Höhe Breite Mystery Tiefe — H B M T — X Y Z W — Höhe Breite Mystery Tiefe — H= Höhe B= Breite M= Mystery T= Tiefe — Höhe Breite Mystery Tiefe",
+  hoehe: "Höhe — Höhe — Y — Y= Höhe — Höhe — Breite — Mystery — Tiefe — Höhe — Breite — Mystery — Tiefe — Höhe — Y — Y= Höhe — Höhe — 297 — DIN A4 210×297 — Höhe — 297 — Höhe — Breite — Mystery — Tiefe — Höhe — Y — Höhe — 297 — Höhe — Höhe Breite Mystery Tiefe — Höhe",
+  breite: "Breite — Breite — X — X= Breite — Breite — Höhe — Breite — Mystery — Tiefe — Breite — X — X= Breite — Breite — 210 — DIN A4 210×297 — Breite — 210 — Breite — Höhe — Breite — Mystery — Tiefe — Breite — X — Breite — 210 — Breite — Höhe Breite Mystery Tiefe — Breite",
+  mystery: "Mystery — Mystery — W — W= Mystery — Mystery — Höhe — Breite — Mystery — Tiefe — Mystery — W — W= Mystery — Mystery — Mystery UFO Stand — Mystery — Höhe Breite Mystery Tiefe — Mystery — W=9 Raum Norden Station — STATION v81 MODE:CACHE — W=9 Raum — W= Mystery — Mystery — Mystery UFO Stand — Mystery — Höhe Breite Mystery Tiefe — Mystery — W — Mystery",
+  tiefe: "Tiefe — Tiefe — Z — Z= Tiefe — Tiefe — Höhe — Breite — Mystery — Tiefe — Tiefe — Z — Z= Tiefe — Tiefe — Tiefe — Z — Tiefe — Tiefe — Höhe Breite Mystery Tiefe — Tiefe — Z= Tiefe — Tiefe — arg3te 8.159 — TIEFE Z arg3te 8.159 cubik innen eco 26.81 — Tiefe — Z — Tiefe — Tiefe",
+  dieAnderenBeiden: {
+    // die anderen beiden auch konsequenzieren weil es ist Höhe Breite Mystery Tiefe — die anderen beiden — welche anderen beiden — firmware.js — aua.js — KEY.sys — OS.js — die anderen beiden — firmware.js — aua.js — oder KEY.sys — OS.js — die anderen beiden auch konsequenzieren weil es ist Höhe Breite Mystery Tiefe — Höhe — Breite — Mystery — Tiefe — konsequenzieren — Konsequenz — Höhe Breite Mystery Tiefe
+    firmwareJs: {
+      file: "firmware.js — Create firmware.js 10 minutes ago — firmware.js — firmware — firmware.js — firmware — Höhe Breite Mystery Tiefe — firmware.js — firmware — Höhe — Breite — Mystery — Tiefe — firmware.js — firmware",
+      konsequenz: "firmware.js — konsequenzieren — Höhe Breite Mystery Tiefe — firmware.js — Höhe — Breite — Mystery — Tiefe — firmware.js — Höhe=Y=297 — Breite=X=210 — Mystery=W=9 — Tiefe=Z=8.159 — firmware.js — konsequenzieren — Höhe Breite Mystery Tiefe — firmware.js — Höhe — Breite — Mystery — Tiefe — firmware.js — konsequenziert — Höhe Breite Mystery Tiefe",
+      code: `
+export const FIRMWARE_JS = {
+  hoehe: 297, // Höhe — Y — Höhe — 297 — DIN A4 210×297 — Höhe — Y — Höhe — Höhe Breite Mystery Tiefe — Höhe
+  breite: 210, // Breite — X — Breite — 210 — DIN A4 210×297 — Breite — X — Breite — Höhe Breite Mystery Tiefe — Breite
+  mystery: 9, // Mystery — W — Mystery — 9 — W=9 Raum Norden Station — STATION v81 MODE:CACHE — W=9 Raum — Mystery — W — Mystery — Mystery UFO Stand — Mystery — Höhe Breite Mystery Tiefe — Mystery
+  tiefe: 8.159, // Tiefe — Z — Tiefe — 8.159 — arg3te 8.159 — TIEFE Z arg3te 8.159 cubik innen eco 26.81 — Tiefe — Z — Tiefe — Höhe Breite Mystery Tiefe — Tiefe
+  konsequenz: "Höhe Breite Mystery Tiefe — Höhe=Y=297 Breite=X=210 Mystery=W=9 Tiefe=Z=8.159 — firmware.js — konsequenzieren — Höhe Breite Mystery Tiefe — firmware.js — Höhe — Breite — Mystery — Tiefe — firmware.js — konsequenziert"
+};
+`
+    },
+    auaJs: {
+      file: "aua.js — Add backup functionality in aua.js 13 minutes ago — aua.js — b9fa1fa — aua.js — aua — Backup — aua.js — Höhe Breite Mystery Tiefe — aua.js — aua — Höhe — Breite — Mystery — Tiefe — aua.js — aua",
+      konsequenz: "aua.js — konsequenzieren — Höhe Breite Mystery Tiefe — aua.js — Höhe — Breite — Mystery — Tiefe — aua.js — Höhe=Y=0.872 pNorm GOOD gelb — Breite=X=0.25 xarg 0.25 BREITE X — Mystery=W=0.62 cNorm 0.62 — Tiefe=Z=8.159 arg3te — aua.js — konsequenzieren — Höhe Breite Mystery Tiefe — aua.js — Höhe — Breite — Mystery — Tiefe — aua.js — konsequenziert — Höhe Breite Mystery Tiefe",
+      code: `
+export const AUA_JS = {
+  hoehe: 0.872, // Höhe — Y — Höhe — pNorm 0.872 GOOD gelb — Höhe — Y — Höhe — pNorm 0.872 GOOD gelb ffcc33 — Höhe — Y — Höhe — Höhe Breite Mystery Tiefe — Höhe
+  breite: 0.25, // Breite — X — Breite — 0.25 — xarg 0.25 BREITE X — Breite — X — Breite — 0.25 — xarg — BREITE X — Breite — Höhe Breite Mystery Tiefe — Breite
+  mystery: 0.62, // Mystery — W — Mystery — 0.62 — cNorm 0.62 radiusFactor 0.348 ~0.35 — Mystery — W — Mystery — cNorm 0.62 — Mystery — W — Mystery — Mystery UFO Stand — Mystery — Höhe Breite Mystery Tiefe — Mystery
+  tiefe: 8.159, // Tiefe — Z — Tiefe — 8.159 — arg3te 8.159 — TIEFE Z arg3te 8.159 cubik innen eco 26.81 — Tiefe — Z — Tiefe — Höhe Breite Mystery Tiefe — Tiefe
+  backup: "Backup geht ganz einfach — alles vom 81 wird gewurzelt im 9 zum 3e gedacht gespiegelt Mystery UFO Stand weil unsere Dateien haben eich upd upg rev evo gen und der Stand ist im Sys und Datei drine und Größe Verhalten ist bekannt — aua.js Add backup functionality in aua.js b9fa1fa now — firmware.js — KEY.sys — OS.js — aua.js — Backup — geht ganz einfach — 81→9→3e — Höhe Breite Mystery Tiefe — aua.js — konsequenziert",
+  konsequenz: "Höhe Breite Mystery Tiefe — Höhe=Y=0.872 Breite=X=0.25 Mystery=W=0.62 Tiefe=Z=8.159 — aua.js — konsequenzieren — Höhe Breite Mystery Tiefe — aua.js — Höhe — Breite — Mystery — Tiefe — aua.js — konsequenziert"
+};
+`
+    },
+    keySys: {
+      file: "KEY.sys — Implement KEY_SYS structure and fillKeySys function 9 minutes ago — KEY.sys — KEY — KEY.sys — KEY — Höhe Breite Mystery Tiefe — KEY.sys — KEY — Höhe — Breite — Mystery — Tiefe — KEY.sys — KEY",
+      konsequenz: "KEY.sys — konsequenzieren — Höhe Breite Mystery Tiefe — KEY.sys — Höhe — Breite — Mystery — Tiefe — KEY.sys — Höhe=Y=32.29 arg 32.29 — Breite=X=0.25 xarg — Mystery=W=0.995 clean 0.995 RIN 8.2 — Tiefe=Z=8.159 — KEY.sys — konsequenzieren — Höhe Breite Mystery Tiefe — KEY.sys — Höhe — Breite — Mystery — Tiefe — KEY.sys — konsequenziert — Höhe Breite Mystery Tiefe",
+      code: `
+export const KEY_SYS_HBMT = {
+  hoehe: 32.29, // Höhe — Y — Höhe — arg 32.29 — Höhe — Y — Höhe — arg 32.29 BREITE X xarg 0.25 TIEFE Z arg3te 8.159 — Höhe — Y — Höhe — Höhe Breite Mystery Tiefe — Höhe
+  breite: 0.25, // Breite — X — Breite — 0.25 — xarg 0.25 BREITE X — Breite — X — Breite — Höhe Breite Mystery Tiefe — Breite
+  mystery: 0.995, // Mystery — W — Mystery — 0.995 — clean 0.995 RIN 8.2 — Mystery — W — Mystery — clean 0.995 — RIN 8.2 — Mystery — W — Mystery — Mystery UFO Stand — Mystery — Höhe Breite Mystery Tiefe — Mystery
+  tiefe: 8.159, // Tiefe — Z — Tiefe — 8.159 — arg3te 8.159 — TIEFE Z arg3te 8.159 cubik innen eco 26.81 — Tiefe — Z — Tiefe — Höhe Breite Mystery Tiefe — Tiefe
+  konsequenz: "Höhe Breite Mystery Tiefe — Höhe=Y=32.29 Breite=X=0.25 Mystery=W=0.995 Tiefe=Z=8.159 — KEY.sys — konsequenzieren — Höhe Breite Mystery Tiefe — KEY.sys — Höhe — Breite — Mystery — Tiefe — KEY.sys — konsequenziert"
+};
+`
+    },
+    osJs: {
+      file: "OS.js — Add OS structure and initial content to OS.js 7 minutes ago — OS.js — OS — Operating System — Höhe Breite Mystery Tiefe — OS.js — OS — Höhe — Breite — Mystery — Tiefe — OS.js — OS",
+      konsequenz: "OS.js — konsequenzieren — Höhe Breite Mystery Tiefe — OS.js — Höhe — Breite — Mystery — Tiefe — OS.js — Höhe=Y=9 Raum — Breite=X=9 Raum — Mystery=W=9 Raum — Tiefe=Z=3 Raum — OS.js — konsequenzieren — Höhe Breite Mystery Tiefe — OS.js — Höhe — Breite — Mystery — Tiefe — OS.js — konsequenziert — Höhe Breite Mystery Tiefe",
+      code: `
+export const OS_JS_HBMT = {
+  hoehe: 9, // Höhe — Y — Höhe — 9 — 9×9=81 — 9×9 — 81 — W=9 Raum Norden Station — Regel 9 Raum immer 9 sqrt(81)→3 — Höhe — Y — Höhe — 9 — Höhe Breite Mystery Tiefe — Höhe
+  breite: 9, // Breite — X — Breite — 9 — 9×9=81 — 9×9 — 81 — W=9 Raum Norden Station — Regel 9 Raum immer 9 sqrt(81)→3 — Breite — X — Breite — 9 — Höhe Breite Mystery Tiefe — Breite
+  mystery: 9, // Mystery — W — Mystery — 9 — W=9 Raum Norden Station — STATION v81 MODE:CACHE — W=9 Raum — Mystery — W — Mystery — 9 — W=9 Raum — Mystery — Höhe Breite Mystery Tiefe — Mystery
+  tiefe: 3, // Tiefe — Z — Tiefe — 3 — 3↺ Mitte — 3er Raum der bis 9er wachsen darf — room.js der bleibt so — Regel 9 — Tiefe — Z — Tiefe — 3 — 3↺ Mitte — Höhe Breite Mystery Tiefe — Tiefe
+  konsequenz: "Höhe Breite Mystery Tiefe — Höhe=Y=9 Breite=X=9 Mystery=W=9 Tiefe=Z=3 — OS.js — konsequenzieren — Höhe Breite Mystery Tiefe — OS.js — Höhe — Breite — Mystery — Tiefe — OS.js — konsequenziert — 81◆→△→27▣→3↺ — cubik ram nach innen muss — room.js der bleibt so — Höhe Breite Mystery Tiefe"
+};
+`
     }
-    return {gravitation, userZugKraft, kraft, slots, onGedrueckt, note:"jetzt gravitation user zug kraft ist bei 729 wenn gedrückt wird versuchen wir erst länger nicht genutztes anzu schlacken so wie 3 fach 4 fach datein zu erst wenn wirklich alle 100$ gleich — loop.js — Create loop.js d363015 · now — gravitation user zug kraft ist bei 729 — wenn gedrückt wird — länger nicht genutztes — anzu schlacken — 3 fach 4 fach — 100$ gleich — loop.js — low lvl — hard control — 81◆→△→27▣→3↺ — cubik ram nach innen muss — room.js der bleibt so — bereit"};
-  }
+  },
+  konsequenzieren: "die anderen beiden auch konsequenzieren weil es ist Höhe Breite Mystery Tiefe — die anderen beiden auch konsequenzieren weil es ist Höhe Breite Mystery Tiefe — Höhe Breite Mystery Tiefe — H B M T — X Y Z W — Höhe Breite Mystery Tiefe — H= Höhe B= Breite M= Mystery T= Tiefe — Höhe Breite Mystery Tiefe — Höhe — Breite — Mystery — Tiefe — konsequenzieren — Konsequenz — Höhe Breite Mystery Tiefe — die anderen beiden — firmware.js — aua.js — KEY.sys — OS.js — die anderen beiden auch konsequenzieren weil es ist Höhe Breite Mystery Tiefe — Höhe — Breite — Mystery — Tiefe — konsequenzieren — Konsequenz — Höhe Breite Mystery Tiefe — H B M T — X Y Z W — Höhe Breite Mystery Tiefe — konsequenzieren",
+  proof: "Proof-first 920d9e8 333c898 5cbe87c 287cbf5 b2d9eb9 3c1ca57 b9fa1fa d363015 — Hash Zeit — zuerst hatte — wenn sie stehlen bereuen sie es — offen aber geschützt — no senor closed — SU bleibt closed — BIO erklärt SU — 81◆→△→27▣→3↺ — cubik ram nach innen muss — room.js der bleibt so — die anderen beiden auch konsequenzieren weil es ist Höhe Breite Mystery Tiefe — Höhe Breite Mystery Tiefe — H B M T — X Y Z W — Höhe Breite Mystery Tiefe — konsequenzieren — bereit"
 };
 
-export function createLoop(){
-  return LOOP_JS.loop();
+export function konsequenzierenHoeheBreiteMysteryTiefe(){
+  return HOEHE_BREITE_MYSTERY_TIEFE.dieAnderenBeiden;
 }
-
