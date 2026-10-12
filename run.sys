@@ -1,1 +1,27 @@
+// https://github.com/iki1uc/auto.reset.on/blob/main/run.sys — 0 lines (0 loc) · 1 Byte — ## run.sys — - — - — 0 lines (0 loc) · 1 Byte — run.sys — leer — 0 lines — 1 Byte — - — - — run.sys — leer — low lvl — hard control — 3 fache Kontrolle — run.sys — leer — 0 lines — 1 Byte — run.sys — leer
 
+export const RUN_SYS = {
+  name: "run.sys — 0 lines (0 loc) · 1 Byte — ## run.sys — - — - — 0 lines (0 loc) · 1 Byte — run.sys — leer — 0 lines — 1 Byte — - — - — run.sys — leer",
+  lines: 0, // 0 lines (0 loc) · 1 Byte — 0 lines — 0 lines (0 loc) · 1 Byte — 0 lines — 0 lines (0 loc) · 1 Byte — 0 lines — 0 lines (0 loc) · 1 Byte — 0 lines — 0 lines
+  loc: 0, // 0 loc — 0 lines (0 loc) · 1 Byte — 0 loc — 0 lines (0 loc) · 1 Byte — 0 loc — 0 lines (0 loc) · 1 Byte — 0 loc — 0 lines (0 loc) · 1 Byte — 0 loc
+  bytes: 1, // 1 Byte — 0 lines (0 loc) · 1 Byte — 1 Byte — 0 lines (0 loc) · 1 Byte — 1 Byte — 0 lines (0 loc) · 1 Byte — 1 Byte — 0 lines (0 loc) · 1 Byte — 1 Byte
+  content: "-", // - — - — - — - — ## run.sys — - — - — 0 lines (0 loc) · 1 Byte — - — - — 0 lines (0 loc) · 1 Byte — - — - — 0 lines (0 loc) · 1 Byte — - — - — 0 lines (0 loc) · 1 Byte — - — - — 0 lines (0 loc) · 1 Byte
+  run: function(){
+    // run.sys — 0 lines (0 loc) · 1 Byte — ## run.sys — - — - — 0 lines (0 loc) · 1 Byte — run.sys — leer — 0 lines — 1 Byte — - — - — run.sys — leer — run.sys — leer — 0 lines — 1 Byte — - — - — run.sys — leer — run.sys — leer — 0 lines — 1 Byte — - — - — run.sys — leer — run.sys — leer — 0 lines — 1 Byte — - — - — run.sys — leer — run.sys — leer — 0 lines — 1 Byte — - — - — run.sys — leer — run.sys — leer — 0 lines — 1 Byte — - — - — run.sys — leer
+    const run = {
+      lines: 0, // 0 lines (0 loc) · 1 Byte — 0 lines — 0 lines (0 loc) · 1 Byte — 0 lines — 0 lines (0 loc) · 1 Byte — 0 lines — 0 lines (0 loc) · 1 Byte — 0 lines — 0 lines
+      loc: 0, // 0 loc — 0 lines (0 loc) · 1 Byte — 0 loc — 0 lines (0 loc) · 1 Byte — 0 loc — 0 lines (0 loc) · 1 Byte — 0 loc — 0 lines (0 loc) · 1 Byte — 0 loc
+      bytes: 1, // 1 Byte — 0 lines (0 loc) · 1 Byte — 1 Byte — 0 lines (0 loc) · 1 Byte — 1 Byte — 0 lines (0 loc) · 1 Byte — 1 Byte — 0 lines (0 loc) · 1 Byte — 1 Byte
+      content: "-", // - — - — - — - — ## run.sys — - — - — 0 lines (0 loc) · 1 Byte — - — - — 0 lines (0 loc) · 1 Byte — - — - — 0 lines (0 loc) · 1 Byte — - — - — 0 lines (0 loc) · 1 Byte — - — - — 0 lines (0 loc) · 1 Byte
+      leer: "run.sys — leer — 0 lines — 1 Byte — - — - — run.sys — leer — 0 lines — 1 Byte — - — - — run.sys — leer — 0 lines — 1 Byte — - — - — run.sys — leer — 0 lines — 1 Byte — - — - — run.sys — leer — 0 lines — 1 Byte — - — - — run.sys — leer — 0 lines — 1 Byte — - — - — run.sys — leer",
+      run: "run.sys — leer — 0 lines — 1 Byte — - — - — run.sys — leer — run — run — run — run — run — run",
+      proof: "Proof-first 920d9e8 333c898 5cbe87c 287cbf5 b2d9eb9 3c1ca57 b9fa1fa d363015 ca99f70 — Hash Zeit — zuerst hatte — wenn sie stehlen bereuen sie es — offen aber geschützt — no senor closed — SU bleibt closed — BIO erklärt SU — 81◆→△→27▣→3↺ — cubik ram nach innen muss — room.js der bleibt so — run.sys — 0 lines (0 loc) · 1 Byte — ## run.sys — - — - — 0 lines (0 loc) · 1 Byte — run.sys — leer — 0 lines — 1 Byte — - — - — run.sys — leer — bereit"
+    };
+    console.log("run.sys — 0 lines (0 loc) · 1 Byte — ## run.sys — - — - — 0 lines (0 loc) · 1 Byte — run.sys — leer — 0 lines — 1 Byte — - — - — run.sys — leer — run:", run, "leer — 0 lines — 1 Byte — - — - — run.sys — leer — bereit");
+    return run;
+  }
+};
+
+export function runSys(){
+  return RUN_SYS.run();
+}
